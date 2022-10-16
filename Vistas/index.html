@@ -1,14 +1,100 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Ciudadano</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
+    <title>PROYECTO CIUDADANO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.CSS">
+    <link rel="shortcut icon" href="img/favicon.png">
 </head>
-<body>
-    
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+
+    <nav class="navbar bg-light ">
+        <div class="container">
+         
+        </div>
+      </nav>
+
+
+
+      <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/favicon.png" alt="Bootstrap" width="30" height="30">
+              </a>  
+          <a class="navbar-brand fs-3" href="#">Proyecto Ciudadano</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="votar.html">Votar Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="masvotados.html">Mas Votados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="informacion.html">Informacion</a>
+              </li>
+            </ul>
+
+
+            <div class="position-absolute top-50 end-0 translate-middle-y">
+            <a href="loggin.html"><button type="button" class="btn btn-light">Ingresar</button></a>
+            <a href="registrarse.html"><button type="button" class="btn btn-light">Registrarse</button></a>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+   
+
+
+
+
+
+      <section class="mx-auto p-5 " style="width: 80%;">
+        <div class=" ">
+          <label for="exampleFormControlInput1" class="form-label">Titulo del proyecto</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" >
+       </div>
+       <div class=" ">
+         <label for="exampleFormControlTextarea1" class="form-label">Escribe tu proyecto</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-5  position-absolute top-75 start-50 translate-middle" id="botonAA">Enviar Proyecto</button>
+
+      </section>
+
+
+      <footer class="bg-light text-center text-lg-start mt-auto">
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                 © 2022 72group:
+                <a class="text-dark" href="https://www.ispc.edu.ar/">www.72group.com</a>
+        </div>       
+      </footer>
+
+
+
+
+  
+
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
