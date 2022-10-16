@@ -1,0 +1,15 @@
+body{background-image: url(../img/fondo.jpg);}
+
+#botonAA{box-shadow:0px 0px 18px #585858;}
+
+.cajaproyecto{text-align: center;
+    margin:auto ;width: 70%;border-style: solid;
+    margin-top: 2em;margin-bottom: 2em;
+    border-color: #d4d4d4;border-width: 1px;border-radius: 5px;padding: 10px;background-color: rgb(255, 255, 255);}
+
+.parrafo_info{width: 70%;text-align: center;margin:auto; margin-top: 2em; }
+
+#imagenMuni{width: 10%; display: flex; margin: auto; margin-top: 2em;}
+
+
+
