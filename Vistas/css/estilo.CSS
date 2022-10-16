@@ -1,4 +1,4 @@
-body{background-image: url(../img/fondo.jpg);}
+body{background-image: url(../img/fondo.jpg);background-attachment: fixed;}
 
 #botonAA{box-shadow:0px 0px 18px #585858;}
 
