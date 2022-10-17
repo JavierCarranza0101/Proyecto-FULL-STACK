@@ -39,7 +39,7 @@ class Usuario:
     def get_Contrasena(self):
         return self.Contraseña
 
-    def set_Contraseña(self, contrasena):
+    def set_Contrasena(self, contrasena):
         self.Contraseña=contraseña            
 
         
