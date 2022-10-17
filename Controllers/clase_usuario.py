@@ -10,7 +10,7 @@ class Usuario:
         self.Apellido= apellido
         self.Dni= dni
         self.Email = email
-        self.Contraseña= contrasena
+        self.Contrasena= contrasena
 
     def get_Nombre(self):
         return self.Nombre
@@ -37,10 +37,10 @@ class Usuario:
         self.Email=email 
 
     def get_Contrasena(self):
-        return self.Contraseña
+        return self.Contrasena
 
     def set_Contrasena(self, contrasena):
-        self.Contraseña=contraseña            
+        self.Contrasena=contrasena            
 
         
 
