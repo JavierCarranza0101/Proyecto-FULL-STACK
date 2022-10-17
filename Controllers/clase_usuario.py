@@ -3,14 +3,14 @@ class Usuario:
     Apellido= ""
     Dni= 0
     Email= ""
-    Contraseña= ""
+    Contrasena= ""
 
-    def __init__(self, nombre, apellido, dni, email, contraseña): 
+    def __init__(self, nombre, apellido, dni, email, contrasena): 
         self.Nombre = nombre
         self.Apellido= apellido
         self.Dni= dni
         self.Email = email
-        self.Contraseña= contraseña
+        self.Contraseña= contrasena
 
     def get_Nombre(self):
         return self.Nombre
@@ -36,10 +36,10 @@ class Usuario:
     def set_Email(self, email):
         self.Email=email 
 
-    def get_Contraseña(self):
+    def get_Contrasena(self):
         return self.Contraseña
 
-    def set_Contraseña(self, contraseña):
+    def set_Contraseña(self, contrasena):
         self.Contraseña=contraseña            
 
         
