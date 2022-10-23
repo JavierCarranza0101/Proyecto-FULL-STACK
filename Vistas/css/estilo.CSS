@@ -11,5 +11,8 @@ body{background-image: url(../img/fondo.jpg);background-attachment: fixed;}
 
 #imagenMuni{width: 10%; display: flex; margin: auto; margin-top: 2em;}
 
+@media only screen and (min-width: 550px) {
+    #seccion-reg{ width: 50% ;}
+  }
 
 
